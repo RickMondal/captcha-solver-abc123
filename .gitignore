@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv / env files
+.env
+venv/
+env/
+.venv/
+
+# Local config / secrets (do not commit student secrets)
+student_secrets.json
+*.secret
+
+# Workspaces and build output
+workspaces/
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
